@@ -49,7 +49,7 @@ func HasAnySellersFromCity(sellers []Seller, city string) {
 
 	for i := range sellers {
 		if sellers[i].Address.City == city {
-			fmt.Printf("Found seller %s in %s city", sellers[i].Name, city)
+					fmt.Printf("Found seller %s in %s city", sellers[i].Name, city)
 		}
 		if sellers[i].IsVerified == true {
 			fmt.Printf("This seller is verified\n")
